@@ -1,13 +1,13 @@
 {% load staticfiles %}
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Montserrat&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="{% static 'home.css' %}">
     <title>Comidinhas</title>
 </head>
 
@@ -33,15 +33,15 @@
     <footer>
         <div>
             <a href="https://www.instagram.com/" target="_blank">
-                <img src="img/insta.png" alt="">
+                <img src="{% static 'img/insta.png' %}"alt="">
             </a>
 
             <a href="https://www.facebook.com/pt-br/" target="_blank">
-                <img src="img/facebook.png" alt="">
+                <img src="{% static 'img/facebook.png' %}" alt="">
             </a>
 
             <a href="https://www.youtube.com/" target="_blank">
-                <img src="img/youtube.png" alt="">
+                <img src="{% static 'img/youtube.png' %}" alt="">
             </a>
         </div>
     </footer>
