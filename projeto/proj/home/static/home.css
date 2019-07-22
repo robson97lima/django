@@ -23,7 +23,7 @@ nav a:hover{
 
 .banner{
     height: 400px;
-    background-image: url("img/fundo.jpg");
+    background-image: url("{% static 'img/fundo.jpg' %}");
     background-size: cover;
 }
 
